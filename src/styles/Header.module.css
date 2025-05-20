@@ -1,0 +1,50 @@
+.header {
+  background-color: #ffffff;
+}
+
+.navLinksCustom .nav-item {
+  margin-left: 20px;
+}
+
+.authButtons .loginLink {
+  color: #ff4757;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
+}
+
+.authButtons .loginLink:hover {
+  color: #e01526;
+  transition: background-color 0.3s;
+}
+.authButtons .signupButton {
+  background-color: #ff4757;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.authButtons .signupButton:hover {
+  background-color: #e00a20;
+}
+
+@media (max-width: 991.98px) {
+  .navLinksCustom .nav-item {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+  .authButtons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .authButtons .loginLink {
+    margin-bottom: 0.5rem;
+  }
+  .authButtons .signupButton {
+    width: 50%;
+  }
+}

@@ -3,7 +3,7 @@ import { appRoutes } from "../../appRoutes";
 
 const axiosInstance = axios.create({
   baseURL: appRoutes.loggedInuserBaseUrl,
-  withCredentials: true,
+  // withCredentials: true,
 });
 
 axiosInstance.interceptors.request.use(
